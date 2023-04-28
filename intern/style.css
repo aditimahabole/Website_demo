@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: orange;
+  height: 2.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.inner_navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: rebeccapurple; */
+  width: 50%;
+  gap: 5px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border-radius: 5px; */
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+a:hover {
+  color: orange;
+  background-color: white;
+  transition: ease-in-out;
+  border-radius: 5px;
+  animation: rubberBand;
+  animation-duration: 1s;
+}
+
+.animate__animated.animate__pulse {
+  --animate-duration: 2s;
+}
+
+.main {
+  /* background-color: aqua; */
+  height: 20rem;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.inner_main {
+  /* background-color: red; */
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: orange;
+}
+.all {
+  font-size: 80px;
+  font-weight: 700;
+  text-shadow: 2px 2px rgb(22, 22, 22);
+}
+.welcome {
+  animation: lightSpeedInLeft;
+  animation-duration: 1s;
+}
+.to_our {
+  animation: lightSpeedInLeft;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+.website {
+  animation: lightSpeedInLeft;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+.des {
+  animation: fadeInDown;
+  animation-delay: 3s;
+  animation-duration: 2s;
+}
+button {
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  animation: jackInTheBox;
+  animation-delay: 3s;
+  animation-duration: 2s;
+}
+button:hover {
+  box-shadow: 2px 2px 5px rgb(78, 77, 77);
+}
+#show {
+  display: hidden;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: auto;
+  text-align: center;
+  animation: jackInTheBox;
+  /* animation-delay: 4s; */
+  /* animation-duration: 2s; */
+}
